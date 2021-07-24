@@ -3,12 +3,9 @@ package hello.core.member.service;
 import hello.core.AppConfig;
 import hello.core.member.domain.Grade;
 import hello.core.member.domain.Member;
-import hello.core.member.domain.MemoryMemberRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class MemberServiceTest {
     MemberService memberService;
