@@ -4,7 +4,9 @@ import hello.core.discount.DiscountPolicy;
 import hello.core.member.domain.Member;
 import hello.core.member.domain.MemberRepository;
 import hello.core.order.domain.Order;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderServiceImpl implements OrderService {
 
     private final MemberRepository memberRepository;
